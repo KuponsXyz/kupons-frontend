@@ -1,0 +1,20 @@
+export type Item = {
+  id: string;
+  title: string;
+  url: string;
+  price: number;
+  image: string;
+  description: string;
+  headline: string;
+  subscribers: number;
+  rating: number;
+  reviews: number;
+  quizzes: number;
+  lectures: number;
+  ending: string;
+  remaining: number;
+  language: string;
+  category: string;
+  subcategory: string;
+  created: string;
+};
